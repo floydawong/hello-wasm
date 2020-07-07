@@ -9,5 +9,6 @@ extern "C" {
 
 #[wasm_bindgen]
 pub fn greet(name: &str) {
+    println!("Hello WebAssembly");
     alert(&format!("Hello, {}!", name));
 }

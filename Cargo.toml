@@ -1,8 +1,9 @@
 [package]
 name = "hello-wasm"
-version = "0.1.0"
+version = "0.1.2"
 authors = ["Floyda <floyda@163.com>"]
 edition = "2018"
+description = "A sample project with wasm-pack"
 repository = "https://github.com/floydawong/hello-wasm"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
@@ -11,4 +12,4 @@ repository = "https://github.com/floydawong/hello-wasm"
 crate-type = ["cdylib"]
 
 [dependencies]
-wasm-bindgen = "0.2"
+wasm-bindgen = "0.2.43"
